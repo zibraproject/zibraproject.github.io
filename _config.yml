@@ -16,9 +16,9 @@ description: > # this means to ignore newlines until "baseurl:"
   trailer during a road trip in May and June 2016 to do 
   sequencing.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zibra.github.io" # the base hostname & protocol for your site
+url: "http://zibraproject.github.io" # the base hostname & protocol for your site
 twitter_username: zibraproject
-github_username:  zibra
+github_username:  zibraproject
 
 # Build settings
 markdown: kramdown

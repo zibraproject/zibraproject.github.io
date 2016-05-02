@@ -1,0 +1,91 @@
+- person: nick
+  image: nick.jpg
+  name: Nicholas Loman, MB BS, PhD
+  affil: Independent Research Fellow, Institute of Microbiology and Infection, University of Birmingham
+  biog: Nick is a bioinformatician.
+
+- person: luiz
+  name: Luiz Alcantara
+  affil: Fundação Oswaldo Cruz (FIOCRUZ), Centro de Pesquisas Gonçalo Moniz, Brazil
+  biog:
+
+- person: miles
+  image: miles.png
+  name: Miles Carroll
+  affil: Public Health England, United Kingdom
+  biog:
+
+- person: nuno
+  image: nuno.jpg
+  name: Nuno Faria
+  affil: University of Oxford, United Kingdom
+
+- person: paul
+  image: paul.jpg
+  name: Paul Klenerman
+  affil: University of Oxford, United Kingdom
+
+- person: matt
+  name: Matt Loose
+  affil: University of Nottingham, Nottingham, United Kingdom
+  biog:
+
+- person: eddie
+  image: eddie.jpg
+  name: Edward Holmes
+  affil: University of Sydney, Australia
+  biog:
+
+- person: marcio
+  name: Marcio Nunes
+  affil: Instituto Evandro Chagas, Ministry of Health, Belém, Brazil
+  biog:
+
+- person: oli
+  image: oli.jpg
+  name: Oliver Pybus
+  affil: University of Oxford, United Kingdom
+
+- person: andy
+  name: Andrew Rambaut
+  image: andy.png
+  affil: University of Edinburgh, United Kingdom
+  twitter: arambaut
+
+- person: jarry
+  image: jared.jpg
+  name: Jared Simpson
+  affil: Ontario Institute for Cancer Research, Toronto, Canada
+  twitter: jaredtsimpson
+
+- person: ester
+  image: ester.png
+  name: Ester Cerdeira Sabino, MB, PhD
+  affil: Associate Professor, Department of Infectious Disease, Director of the Institute of Tropical Medicine, University of Sao Paulo.
+  biog: Ester is a virologist with a vast experience of flaviviruses. 
+- person: josh
+  name: Josh Quick, BSc
+  affil: Bioinformatician/PhD Student, Institute of Microbiology and Infection, University of Birmingham
+  biog: Nick is a bioinformatician.
+
+- person: steve
+  name: Steve Pullan
+  affil: Public Health England, Porton Down, United Kingdom
+  biog:
+
+- person: liana
+  name: Liana
+  affil: Public Health England, Porton Down, United Kingdom
+  biog:
+
+- person: simon
+  name: Simon Weller
+  affil: Dstl Porton Down
+  biog:
+
+- person: kuiama
+  name: Kuima
+  affil: Public Health England, Porton Down, United Kingdom
+  biog:
+
+

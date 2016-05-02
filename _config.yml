@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Zika Real-time Sequencing Consortium
+email: n.j.loman@bham.ac.uk
+description: > # this means to ignore newlines until "baseurl:"
+  The Zibra project are aiming to sequence a thousand genomes from
+  Brazil to provide important epidemiological information about
+  the spread of this disease in Brazil. We are an international
+  group of scientists who will employ a fully-equipped sequencing
+  trailer during a road trip in May and June 2016 to do 
+  sequencing.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://zibra.github.io" # the base hostname & protocol for your site
+twitter_username: zibraproject
+github_username:  zibra
+
+# Build settings
+markdown: kramdown

@@ -5,11 +5,11 @@ categories: protocols
 author: josh
 ---
 
-#Protocol for tiling amplicon generation for MinION sequencing
+# Protocol for tiling amplicon generation for MinION sequencing
 
 ``Version 0.1, 22nd May 2016 - initial scheme, caution likely will not amplify entire genome.``
 
-##Description
+## Description
 
 This protocol for tiling RT-PCR with random hexamer priming for reverse transcription and multiplex gene specific primers for PCR. You will use two-step reagents (Protoscript II for RT and OneTaq for PCR) instead of the one-step RT-PCR you have been using until now.
 
@@ -99,6 +99,7 @@ For multiplex reactions mix 1 ul of all forward and reverse primers, use 5 ul fo
 	200_131_F_1	200_136_R_2
 		
 ####Pool 2
+
 	200_2_F_1	200_5_R_2
 	200_11_F_1	200_15_R_2
 	200_21_F_1	200_25_R_2

@@ -9,7 +9,7 @@ We are proud to be working with some super cool people:
 
 ### Nextstrain
 
-The <a href="http://zika.nextstrain.org">zika.nextstrain.org</a> website provides
+The <a href="http://nextstrain.org/zika/">nextstrain</a> website provides
 a dynamic visualisation of the Zika public sequences posted so far. This website
 is made by the excellent Trevor Bedford and Richard Neher.
 
@@ -24,7 +24,7 @@ discuss genome sequencing in viral epidemics. We will post updates to this websi
 
 Zika research is happening in the open, here are some useful online resources:
 
-###Zika Open
+### Zika Open
 
 The <a href="http://www.who.int/bulletin/online_first/zika_open/en/">Zika Open</a> website
 run by the World Health Organization tracks open resources published in their Bulletin.

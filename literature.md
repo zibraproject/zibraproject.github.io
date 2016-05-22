@@ -5,44 +5,11 @@ title: "Literature"
 
 ## Manuscripts from members of the ZIBRA consortium
 
-Discovery of a persistent Zika virus lineage in Bahia, Brazil
+### <a href="http://biorxiv.org/cgi/content/short/049916v1">Discovery of a persistent Zika virus lineage in Bahia, Brazil</a>
 
-http://biorxiv.org/cgi/content/short/049916v1
+_Preprint in bioRxiv_
 
-From members of the ZiBRA consortium this paper demonstrates genome recovery from
-clinical samples using bait probes, however genome recovery is quite poor. Samples
-from Bahia are very closely related, adding weight to evidence that Zika was
-introduced into Brazil in mid-2014.
+This study from ZiBRA consortium members Nuno Faria and Oli Pybus show that samples from Bahia in Brazil, the area with the largest number of cases of microencephaly form a distinct clade and are closely related. Notably this paper demonstrates Zika genome recovery from clinical samples using bait probes and sequencing on Illumina. Whole genome recovery is tricky due to high Ct values.
 
-
-## Literature watch
-
-ZIKA VIRUS DETECTION IN CEREBROSPINAL FLUID FROM TWO PATIENTS WITH ENCEPHALOPATHY, MARTINIQUE, FEBRUARY 2016
-
-http://www.eurosurveillance.org/ViewArticle.aspx?ArticleId=21452
-
-Demonstrates Zika virus in CSF of two patients with encephalopathy in Martinique.
-NO genome sequencing.
-
-
-Discovery of a persistent Zika virus lineage in Bahia, Brazil
-
-http://biorxiv.org/cgi/content/short/049916v1
-
-From members of the ZiBRA consortium this paper demonstrates genome recovery from
-clinical samples using bait probes, however genome recovery is quite poor. Samples
-from Bahia are very closely related, adding weight to evidence that Zika was
-introduced into Brazil in mid-2014.
-
-
-Science paper
-
-
-NEJM paper
-
-
-
-
-Zika virus detection in Aedes albopictus in Mexico
 
 

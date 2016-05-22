@@ -26,16 +26,19 @@ Zika research is happening in the open, here are some useful online resources:
 
 ###Zika Open
 
-The Zika Open website.
+The <a href="http://www.who.int/bulletin/online_first/zika_open/en/">Zika Open</a> website
+run by the World Health Organization tracks open resources published in their Bulletin.
 
 ### The O'Connor website
 
-The O'Connor group are publishing in real time their findings on Zika virus.
+Dave O'Connor's group at UW-Madison are publishing in real time their findings on Zika virus
+via the <a href="https://zika.labkey.com/project/home/begin.view?">Zika LabKey</A> website.
 
 ### Preprints
 
-Zika publications are increasingly being seen on bioRxiv as a way to rapidly
-disseminate findings. We are committing to the use of bioRxiv, and there
-is a nice way to find Zika manuscripts through the AcademicKarma website.
+Zika publications are increasingly being seen on <a href="http://www.biorxiv.org">bioRxiv</a>
+as a way to rapidly disseminate findings. We are committing to the use of bioRxiv, and there
+is a nice way to find Zika manuscripts through the Zika channel on the
+<a href="http://academickarma.org/theme/zika">AcademicKarma</a> website.
 
 

@@ -2,90 +2,103 @@
   image: nick.jpg
   name: Nicholas Loman, MB BS, PhD
   affil: Independent Research Fellow, Institute of Microbiology and Infection, University of Birmingham
-  biog: Nick is a bioinformatician.
+  biog: Nick is a sequencing maven and bioinformatician and will be assisting our Brazilian project partners setting up mobile sequencing.
 
 - person: luiz
+  image: luiz.png
   name: Luiz Alcantara
-  affil: Fundação Oswaldo Cruz (FIOCRUZ), Centro de Pesquisas Gonçalo Moniz, Brazil
-  biog:
+  affil: Senior Scientific Researcher at LHGB/IGM, Fundação Oswaldo Cruz (FIOCRUZ), Salvador, Bahia, Brazil
+  biog: Luiz is an experienced virologist with a background in flavivirus research.
 
 - person: miles
   image: miles.png
   name: Miles Carroll
   affil: Public Health England, United Kingdom
-  biog:
+  biog: Miles is Deputy Director, Head of Research at Public Health England.
 
 - person: nuno
   image: nuno.jpg
   name: Nuno Faria
   affil: University of Oxford, United Kingdom
+  biog: Nuno is a molecular evolution expert with a particular interest in arboviruses such as Zika, Dengue and Chikungungya.
 
 - person: paul
   image: paul.jpg
   name: Paul Klenerman
   affil: University of Oxford, United Kingdom
+  biog: Paul is an experienced virologist who has been exploring next-generation sequencing techniques for clinical diagnostics.
 
 - person: matt
   name: Matt Loose
   affil: University of Nottingham, Nottingham, United Kingdom
-  biog:
+  biog: Matt is a developmental biologist who has recently pioneered new methods for nanopore sequencing.
 
 - person: eddie
   image: eddie.jpg
   name: Edward Holmes
   affil: University of Sydney, Australia
-  biog:
+  biog: Eddie is a world-expert on flavivirus evolution.
 
 - person: marcio
+  image: marcio.jpg
   name: Marcio Nunes
   affil: Instituto Evandro Chagas, Ministry of Health, Belém, Brazil
-  biog:
+  biog: Marcio RT Nunes, Research Scientist in Public Health, PhD. Head of the Genomic Core - Center for Technological Innovation, Evandro Chagas Institute-Brazilian Ministry of Health. Coordinator of ZIBRA Project in Brazi
 
 - person: oli
   image: oli.jpg
   name: Oliver Pybus
   affil: University of Oxford, United Kingdom
+  biog: Oli is one of the world's leading experts on molecular evolution of viruses.
 
 - person: andy
   name: Andrew Rambaut
   image: andy.png
   affil: University of Edinburgh, United Kingdom
   twitter: arambaut
+  biog: Andrew is a molecular genetics expert who developed BEAST, one of the most important software packages for exploring molecular evolution.
 
 - person: jarry
   image: jared.jpg
   name: Jared Simpson
   affil: Ontario Institute for Cancer Research, Toronto, Canada
   twitter: jaredtsimpson
+  biog: Jared is a bioinformatician who has developed several novel methods for nanopore sequencing analysis.
 
 - person: ester
   image: ester.png
   name: Ester Cerdeira Sabino, MB, PhD
   affil: Associate Professor, Department of Infectious Disease, Director of the Institute of Tropical Medicine, University of Sao Paulo.
   biog: Ester is a virologist with a vast experience of flaviviruses. 
+
 - person: josh
   name: Josh Quick, BSc
   affil: Bioinformatician/PhD Student, Institute of Microbiology and Infection, University of Birmingham
-  biog: Nick is a bioinformatician.
+  biog: Josh is a molecular biologist and bioinformatician who recently set up mobile sequencing in West Africa to monitor the Ebola epidemic.
 
 - person: steve
   name: Steve Pullan
   affil: Public Health England, Porton Down, United Kingdom
-  biog:
+  biog: Steve is a bioinformatician and molecular biologist.
 
 - person: liana
   name: Liana
   affil: Public Health England, Porton Down, United Kingdom
-  biog:
+  biog: Liana is a PhD student who is working on novel methods for sequence-based diagnostics of viruses.
 
 - person: simon
   name: Simon Weller
   affil: Dstl Porton Down
-  biog:
+  biog: Simon is an expert in all things PCR and diagnostics, and recently established the PHE laboratories in West Africa.
 
-- person: kuiama
-  name: Kuima
-  affil: Public Health England, Porton Down, United Kingdom
-  biog:
+- person: marta
+  image: marta.png
+  name: Marta Giovanetti
+  affil: Post-Doc 
+  title: LHGB/IGM/FIOCRUZ, Salvador, Bahia, Brazil
 
-
+- person: jaqueline
+  image: jaqueline.png
+  name: Jacqueline Goes de Jesus
+  title: PhD Student
+  affil: LHGB/IGM/FIOCRUZ, Salvador, Bahia, Brazil

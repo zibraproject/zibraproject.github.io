@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Designing a multiplex PCR scheme for Zika"
+title:  "Protocol: Protocol for tiling amplicon generation for MinION sequencing"
 categories: protocols
 author: josh
 ---
 
 #Protocol for tiling amplicon generation for MinION sequencing
+
+``Version 0.1, 22nd May 2016 - initial scheme, caution likely will not amplify entire genome.``
 
 ##Description
 

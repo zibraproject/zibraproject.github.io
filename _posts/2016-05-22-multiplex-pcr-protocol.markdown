@@ -72,14 +72,14 @@ Primers starting with the name ZKV_ are Charyl’s primers and need diluting fro
 
 For multiplex reactions mix 1 ul of all forward and reverse primers, use 5 ul for a 50 ul reaction.
 
-###Control reactions
+### Control reactions
 
 	1.	400_7F and 400_7R
 	2.	400_14F and 400_14R
 
-###Multiplex reaction
+### Multiplex reaction
 
-####Pool 1
+#### Pool 1
 
 	ZKV_01F	200_4_R_2
 	200_6_F_1	200_10_R_2
@@ -98,7 +98,7 @@ For multiplex reactions mix 1 ul of all forward and reverse primers, use 5 ul fo
 	200_123_F_3	200_125_R_2
 	200_131_F_1	200_136_R_2
 		
-####Pool 2
+#### Pool 2
 
 	200_2_F_1	200_5_R_2
 	200_11_F_1	200_15_R_2

@@ -72,6 +72,7 @@
   biog: Ester is a virologist with a vast experience of flaviviruses. 
 
 - person: josh
+  image: josh.jpg
   name: Josh Quick, BSc
   affil: Bioinformatician/PhD Student, Institute of Microbiology and Infection, University of Birmingham
   biog: Josh is a molecular biologist and bioinformatician who recently set up mobile sequencing in West Africa to monitor the Ebola epidemic.
@@ -80,11 +81,6 @@
   name: Steve Pullan
   affil: Public Health England, Porton Down, United Kingdom
   biog: Steve is a bioinformatician and molecular biologist.
-
-- person: liana
-  name: Liana
-  affil: Public Health England, Porton Down, United Kingdom
-  biog: Liana is a PhD student who is working on novel methods for sequence-based diagnostics of viruses.
 
 - person: simon
   name: Simon Weller

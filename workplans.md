@@ -18,3 +18,6 @@ This work package started in February 2016.
 This work package will commence in April 2016.
 
 ### WP4: Mobile Zika sequencing in Brazil (with FIOCRUZ, Evandro Chagas Institute)
+
+This work package starts at end of May 2016.
+

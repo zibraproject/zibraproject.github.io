@@ -1,0 +1,7 @@
+# Compiled site
+_site/
+
+# Metadata
+.jekyll-metadata
+.sass-cache
+.DS_Store

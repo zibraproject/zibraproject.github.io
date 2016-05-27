@@ -41,4 +41,16 @@ as a way to rapidly disseminate findings. We are committing to the use of bioRxi
 is a nice way to find Zika manuscripts through the Zika channel on the
 <a href="http://academickarma.org/theme/zika">AcademicKarma</a> website.
 
+## Acknowledgements
+
+We have been assisted by many people who have helped us get the logistics ready
+in time, specific thanks to:
+
+  - Casey from Sigma-Aldrich for expediting manufacturing of PCR primers and qPCR probes.
+
+  - Sarah and Gianjeet from the university finance department for expediting orders.
+
+  - Ian from Key Travel for help with booking flights and hotels.
+
+
 

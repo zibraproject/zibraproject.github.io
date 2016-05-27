@@ -22,3 +22,4 @@ github_username:  zibraproject
 
 # Build settings
 markdown: kramdown
+permalink: /blog/:title/

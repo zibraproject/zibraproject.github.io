@@ -15,7 +15,6 @@ Crucially these data will provide a surveillance framework for tracking further 
 
 Data will be subject to open release as it is generated.
 
-<img src="images/mobilelab/And. Laboratoìrio - Vista lateral direita.jpg" />
-<img src="images/mobilelab/lab onibus1.jpg" />
-<img src="images/mobilelab/Riks and Aegypti maps.png" />
-
+<img src="/images/mobilelab/And. Laboratoìrio - Vista lateral direita.jpg" />
+<img src="/images/mobilelab/lab onibus1.jpg" />
+<img src="/images/mobilelab/Riks and Aegypti maps.png" />

@@ -16,6 +16,7 @@ of passage. This work was performed in collaboration with
 Public Health England.
 
   - MP1751 (R9 pore) <a href="http://s3.climb.ac.uk/nanopore/Zika_MP1751_PHE_Long_R9_2D.tgz">47.9gb</a> (note this is a tar file, extract with ``tar -x``).
+  - MP1751 (R9 pore) - multiplex test <a href="http://s3.climb.ac.uk/nanopore/R9_MinKNOW_0.51_PHE_amplicons_lambda_barcoded_demultiplexed_pass.tar">25gb</a>
 
 ### References
 

@@ -52,5 +52,7 @@ in time, specific thanks to:
 
   - Ian from Key Travel for help with booking flights and hotels.
 
+  - Paul Reece, Pete Edgerton, Joey and the IT services team who built the project laptops 
+    in double-quick time!
 
 

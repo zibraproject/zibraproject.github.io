@@ -1,14 +1,15 @@
 ---
 layout: default
-title: "Blog"
+title: "Diaries"
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Diary entries</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
+      {% if post.categories contains 'diary' %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -16,6 +17,7 @@ title: "Blog"
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
+      {%endif %}
     {% endfor %}
   </ul>
 

@@ -62,6 +62,8 @@ names are quite ugly and unintuitive right now.
 When I get a bit more time the next feature to add would be to automatically ``tar``
 the run up by hour (or configurable length) chunks.
 
+It would also be nice to make the format of the directory names configurable.
+
 Then the plan would be to ``rsync`` these folders to a backup hard drive and online.
 ``rsync`` will likely perform better with larger file chunks.
 
@@ -71,6 +73,11 @@ but not yet in an official release.
 
 As always thanks to Aaron Quinlan for being the brains behind poretools and
 for tidying up any messes I leave behind!
+
+And of course, pull requests always welcome, particularly if folks can think
+of a way of prettying up that directory tree from the information contained in
+the FAST5 metadata.
+
 
 
 

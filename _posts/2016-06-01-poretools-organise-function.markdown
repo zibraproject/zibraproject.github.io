@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Organising file transfers with poretools organise"
+title:  "Tidying up run folders with poretools organise"
 categories: protocols
 author: nick
 ---
 
 On the flight to Natal I started thinking about the process of handling the sequencing
-data files we will (hopefully!) be generating on this trip.
+data files we will (hopefully!) be generating on this trip. There's something about starting new projects that gives you the incentive to avoid all the problems of the last one, isn't there?
 
-Given that I'm about as useful in the lab as a chocolate teapot it's also a chance to
+And given that I'm about as useful in the lab as a chocolate teapot it's also a chance to
 write some scripts that will be useful for the folks running the sequencing.
 
 One thing I've been meaning to do for literally two years now is to add a function

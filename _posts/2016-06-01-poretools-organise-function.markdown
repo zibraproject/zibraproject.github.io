@@ -65,6 +65,10 @@ the run up by hour (or configurable length) chunks.
 Then the plan would be to ``rsync`` these folders to a backup hard drive and online.
 ``rsync`` will likely perform better with larger file chunks.
 
+``poretools organise`` is in the ``master`` branch of the
+<a href="http://github.com/arq5x/poretools">Github repository</a>
+but not yet in an official release.
+
 As always thanks to Aaron Quinlan for being the brains behind poretools and
 for tidying up any messes I leave behind!
 

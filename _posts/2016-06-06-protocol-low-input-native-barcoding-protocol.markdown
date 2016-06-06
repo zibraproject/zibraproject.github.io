@@ -16,7 +16,7 @@ To address this we have developed the following protocol for the ZiBRA project. 
   - Dilute 100 ng pooled amplicons into 30 ul for each sample
   - Add 4.2 ul Ultra II buffer and 1.8 ul Ultra II enzyme mix (0.6x reaction size)
   - Incubate at 20°C for 5 minutes and 65°C for 5 minutes
-  - Perform SPRI clean-up and elute in 25 ul
+  - Perform SPRI clean-up and elute in 22.5 ul
   - Continue without quantification
 
   - Perform native barcode ligation as per protocol

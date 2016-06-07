@@ -1,0 +1,123 @@
+15a16
+> 
+71a73,138
+> def move_to_failed(fast5):
+>     checkfolder = os.path.join(os.path.dirname(fast5),"uploads/failed")
+>     if not os.path.exists(checkfolder):
+>         os.makedirs(checkfolder)
+> 
+>     target = os.path.join(os.path.dirname(fast5),"uploads/failed",os.path.basename(fast5))
+>     print "Move %s to %s" % (fast5, target)
+>     shutil.move(fast5, target)
+> 
+> def barcode_match(fast5, seq):
+> #    return "unclassified"
+>     querya = tempfile.NamedTemporaryFile(delete=False)
+>     outfile = tempfile.NamedTemporaryFile(delete=False)
+>     #print outfile.name
+>     outfile.close()
+> 
+>     querya.write('>querya\n')
+>     querya.write(seq)
+>     querya.seek(0)
+>     #print querya.read()
+>     resultdict=dict()
+>     for i in ["01","02","03","04","05","06","07","08","09","10","11","12"]:
+>         pathtobarcodes=pkg_resources.resource_filename('nanonet', 'barcodes/nb'+i+'.fasta')
+>         ospathtobarcodes=os.path.abspath(pathtobarcodes)
+>         subprocess.call("matcher -bsequence "+ospathtobarcodes+" -asequence "+querya.name+" -outfile "+outfile.name,shell=True)
+>         outfile=open(outfile.name, "r")
+>         lines = outfile.readlines()
+>         #Barcode
+>         resultdict[lines[15].split(": ")[1].rstrip()]=dict()
+>         #Length
+>         resultdict[lines[15].split(": ")[1].rstrip()]["length"]=float(lines[20].split(": ")[1].rstrip())
+>         #Identity
+>         resultdict[lines[15].split(": ")[1].rstrip()]["identity"]=float(lines[21].split("(")[1].split("%)")[0].rstrip())
+>         #Similarity
+>         resultdict[lines[15].split(": ")[1].rstrip()]["similarity"]=float(lines[22].split("(")[1].split("%)")[0].rstrip())
+>         #Score
+>         resultdict[lines[15].split(": ")[1].rstrip()]["score"]=float(lines[24].split(": ")[1].rstrip())
+>         pathtobarcodes=pkg_resources.resource_filename('nanonet', 'barcodes/nb'+i+'_rev.fasta')
+>         ospathtobarcodes=os.path.abspath(pathtobarcodes)
+>         subprocess.call("matcher -bsequence "+ospathtobarcodes+" -asequence "+querya.name+" -outfile "+outfile.name,shell=True)
+>         outfile.seek(0)
+>         lines = outfile.readlines()
+>         #Barcode
+>         resultdict[lines[15].split(": ")[1].rstrip()]=dict()
+>         #Length
+>         resultdict[lines[15].split(": ")[1].rstrip()]["length"]=float(lines[20].split(": ")[1].rstrip())
+>         #Identity
+>         resultdict[lines[15].split(": ")[1].rstrip()]["identity"]=float(lines[21].split("(")[1].split("%)")[0].rstrip())
+>         #Similarity
+>         resultdict[lines[15].split(": ")[1].rstrip()]["similarity"]=float(lines[22].split("(")[1].split("%)")[0].rstrip())
+>         #Score
+>         resultdict[lines[15].split(": ")[1].rstrip()]["score"]=float(lines[24].split(": ")[1].rstrip())
+> 
+>     results = sorted([(resultdict[x]["score"],x,resultdict[x]) for x in resultdict.keys()])[::-1]
+>     result = results[0]
+>     score,ide,details=result
+>     print ide.split("_")[0],score,details
+> 
+>     if score >= 75:
+>         next
+>     else:
+>         ide = "unclassified"
+> 
+>     querya.close()
+>     outfile.close()
+>     return ide
+80a148,149
+>     print "Processing: %s" % ( fast5, )
+> 
+85d153
+< 
+94a163
+>         move_to_failed(fast5)
+95a165
+> 
+132a203,205
+>     #barcode matching
+>     ide = barcode_match(fast5, seq)
+> 
+147a221,222
+> 
+> 
+156c231,237
+<         with Fast5(fast5, 'a') as fh:
+---
+>         tmpfast5 = tempfile.NamedTemporaryFile(delete=False)
+> 
+>         tmpfast5.close()
+> 
+>         shutil.copyfile(fast5, tmpfast5.name)
+> 
+>         with Fast5(tmpfast5.name, 'a') as fh:
+160a242
+>            fh._add_attrs({"barcode_arrangement":ide.split("_")[0]},"minoTour_meta/barcodes")
+167a250,264
+>         checkfolder = os.path.join(os.path.dirname(fast5),"downloads")
+>         target = os.path.join(os.path.dirname(fast5),"downloads",ide.split("_")[0],os.path.basename(fast5))
+>         if not os.path.exists(checkfolder):
+>            os.makedirs(checkfolder)
+>         d = os.path.dirname(target)
+>         if not os.path.exists(d):
+>            os.makedirs(d)
+> 
+>         checkfolder = os.path.join(os.path.dirname(fast5),"uploads")
+>         if not os.path.exists(checkfolder):
+>            os.makedirs(checkfolder)
+> 
+>         shutil.move(tmpfast5.name, target)
+>         shutil.move(fast5, checkfolder)
+> 
+176a274
+> 
+209a308
+> 
+210a310
+>             #    print "result is none"
+212a313,315
+> 
+>             print "Got the name", name
+> 

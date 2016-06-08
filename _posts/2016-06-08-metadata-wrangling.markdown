@@ -9,13 +9,13 @@ author: trevor
 
 The ZiBRA roadtrip has involved multiple teams working simultaneously on different steps of the overall sequencing pipeline, from sample selection at the LACENs to RT-PCR to library prep, etc... Each step has some metadata associated with it. We want the eventual sequence to maintain as much linkage to associated epidemiological (date and municipality, etc...) and experimental (Ct, barcode, etc...) metadata as possible. Without a strong push these linkages will end up distributed across a plethora of lab notebooks and Excel spreadsheets. In the last few days, I've tried to get all the important ZiBRA metadata into a single database. 
 
-I've been working from [nextstrain-db](http://github/blab/nextstrain-db), which was built by [Charlton Callender](http://bedford.io/team/charlton-callender/), a very talented undergraduate at the University of Washington, to manage sequence data and associated metadata for [nextstrain](http://nextstrain.org) builds. The basic strategy has been to have an AWS instance running a [RethinkDB](http://rethinkdb.org) server that maintains a table with sample-by-sample metadata and sequences. Having a single server is very helpful to keep data flowing to single location. However, lack of internet has rather complicated this plan. Because of this, I've set up a local RethinkDB instance that mirrors the AWS server. Changes can be made to this local database and then 'pushed' up to the remote database Git-style when we manage to get internet access. Changes to the remote can also be 'pulled' down to the local instance.
+I've been working from [nextstrain-db](http://github.com/blab/nextstrain-db), which was built by [Charlton Callender](http://bedford.io/team/charlton-callender/), a very talented undergraduate at the University of Washington, to manage sequence data and associated metadata for [nextstrain](http://nextstrain.org) builds. The basic strategy has been to have an AWS instance running a [RethinkDB](http://rethinkdb.org) server that maintains a table with sample-by-sample metadata and sequences. Having a single server is very helpful to keep data flowing to single location. However, lack of internet has rather complicated this plan. Because of this, I've set up a local RethinkDB instance that mirrors the AWS server. Changes can be made to this local database and then 'pushed' up to the remote database Git-style when we manage to get internet access. Changes to the remote can also be 'pulled' down to the local instance.
 
-We're running the app [Chateau](http://github.com/neumino/chateau) to provide a web UI for making changes to individual-samples in the database, while larger modifications are done through Python interaction scripts that can [upload tsv files](http://github/blab/nextstrain-db/vdb/zibra_metadata_upload.py) for many documents/fields simultaneously (to upload new samples or to update metadata of existing samples) or [download canonically formatted tsvs or fastas](http://github/blab/nextstrain-db/vdb/zibra_download.py).
+We're running the app [Chateau](http://github.com/neumino/chateau) to provide a web UI for making changes to individual-samples in the database, while larger modifications are done through Python interaction scripts that can [upload tsv files](http://github.com/blab/nextstrain-db/vdb/zibra_metadata_upload.py) for many documents/fields simultaneously (to upload new samples or to update metadata of existing samples) or [download canonically formatted tsvs or fastas](http://github.com/blab/nextstrain-db/vdb/zibra_download.py).
 
 ## Schema notes
 
-Notes on the ZiBRA implementation can be found [here](http://github/blab/nextstrain-db/ZIBRA.md). The basic schema is as follows:
+Notes on the ZiBRA implementation can be found [here](http://github.com/blab/nextstrain-db/ZIBRA.md). The basic schema is as follows:
 
 * `strain`: This study / strain ID in the form of `ZBN47`, `ZBJP1`, etc... This is the *primary key* of the table and is required for every document.
 * `amplicon_concentration`: Purity of DNA after PCR amplification. Measured in ng/ul.
@@ -53,11 +53,11 @@ automatically managed by scripts/chateau.
 
 ## Documentation
 
-* [General database information](http://github/blab/nextstrain-db)
-* [Running Chateau](http://github/blab/nextstrain-db#chateau)
-* [Notes on RethinkDB](http://github/blab/nextstrain-db/RETHINKDB.md)
-* [Interaction commands](http://github/blab/nextstrain-db/vdb/)
-* [ZiBRA-specific notes](http://github/blab/nextstrain-db/ZIBRA.md)
+* [General database information](http://github.com/blab/nextstrain-db)
+* [Running Chateau](http://github.com/blab/nextstrain-db#chateau)
+* [Notes on RethinkDB](http://github.com/blab/nextstrain-db/RETHINKDB.md)
+* [Interaction commands](http://github.com/blab/nextstrain-db/vdb/)
+* [ZiBRA-specific notes](http://github.com/blab/nextstrain-db/ZIBRA.md)
 
 ## Thanks
 

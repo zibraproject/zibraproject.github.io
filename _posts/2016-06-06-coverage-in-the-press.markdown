@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Tidying up run folders with poretools organise"
-categories: protocols
+title:  "ZiBRA press coverage collection"
+categories: blog
 author: nick
 ---
 

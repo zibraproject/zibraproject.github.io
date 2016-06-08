@@ -17,14 +17,9 @@ Background to the project and nanopore sequencing by Ed Yong:
 
 ## Brazilian coverage
 
-Paraiba Online
-
-<http://paraibaonline.net.br/pesquisa-sobre-zika-virus-deve-analisar-cerca-de-300-amostras-na-paraiba/>
-<http://paraibaonline.net.br/ses-participa-de-pesquisa-para-a-avaliar-dinamica-populacional-do-virus-zika/>
-
-Tribuna Do Norte
-
-<http://www.tribunadonorte.com.br/noticia/cientistas-chegam-a-natal-para-mapear-genoma-do-zika/348235>
+  - <http://paraibaonline.net.br/pesquisa-sobre-zika-virus-deve-analisar-cerca-de-300-amostras-na-paraiba/>
+  - <http://paraibaonline.net.br/ses-participa-de-pesquisa-para-a-avaliar-dinamica-populacional-do-virus-zika/>
+  - <http://www.tribunadonorte.com.br/noticia/cientistas-chegam-a-natal-para-mapear-genoma-do-zika/348235>
 
 ### TV coverage
 

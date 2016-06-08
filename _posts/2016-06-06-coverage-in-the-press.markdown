@@ -21,8 +21,9 @@ Background to the project and nanopore sequencing by Ed Yong:
   - <http://paraibaonline.net.br/ses-participa-de-pesquisa-para-a-avaliar-dinamica-populacional-do-virus-zika/>
   - <http://www.tribunadonorte.com.br/noticia/cientistas-chegam-a-natal-para-mapear-genoma-do-zika/348235>
 
+
 ### TV coverage
 
-<a href="https://www.youtube.com/watch?v=9YXfXy9sh_I&app=desktop">Coverage on SBT</a>
+  - <a href="https://www.youtube.com/watch?v=9YXfXy9sh_I&app=desktop">Coverage on SBT</a>
 
 

@@ -5,7 +5,7 @@ categories: blog
 author: josh
 ---
 
-The multiplex PCR strategy we had decided to focus on for the Zibra trip was certainly going to be one of the most technically challenging parts of process. Not least because we are genomics group who grew up in the era of NGS and have very little experience tweaking PCR. Others have been reporting <a href="http://biorxiv.org/content/early/2016/04/24/049916">difficulty sequencing Zika genomes</a> possibly because of the low viral load resulted in insufficient reads using the direct metagenomics approach. When we started sequencing Ebola genomes using MinION in Guinea we favoured amplicon sequencing because it made uploading the data via a 3G connection slightly less painful, as PCR enriches for "on-target" reads. Back then we used a Superscript III one-step RT-PCR kit which anyone will tell you is brilliantly simple and Simon Weller at DSTL had already shown proof of principle data that we could do two or three reactions in multiplex using it on Ebola.
+The multiplex PCR strategy we had decided to focus on for the Zibra trip was certainly going to be one of the most technically challenging parts of process. Not least because we are genomics group who grew up in the era of NGS and have very little experience tweaking PCR. Others have been reporting <a href="http://biorxiv.org/content/early/2016/04/24/049916">difficulty sequencing Zika genomes</a>. This is likely bbecause of the low viral load found in clinical samples. This results in low numbers of reads using a direct metagenomics approach, meaning a huge amount of sequencing is required to get satisfactory genome coverage. When we started sequencing Ebola genomes using MinION in Guinea we favoured amplicon sequencing because it made uploading the data via a 3G connection slightly less painful, as PCR enriches for "on-target" reads. Back then we used a Superscript III one-step RT-PCR kit which anyone will tell you is brilliantly simple and Simon Weller at DSTL had already shown proof of principle data that we could do two or three reactions in multiplex using it on Ebola.
 
 In one-step RT-PCR the idea is to do an initial reverse transcription step off the reverse primer and then proceed to PCR cycling. You therefore need an enzyme cocktail of reverse transcriptase and a DNA polymerase along with a reaction buffer optimised for both reactions. The benefit of this approach is obviously simplicity and people do multiplex qRT-PCR routinely so it seemed like a good option to explore. The alternative is a two-step approach where you have a separate cDNA synthesis step, which typically uses poly-T, random hexamers or specific primers for reverse transcription. This approach would give us the flexibility to use different priming strategies for each step i.e. random primers for the RT and multiplex specific primers for the PCR. Typically you don’t clean up the first step reaction but keep the input to the second step to below 10% volume. 
 
@@ -13,15 +13,16 @@ We had to make a decision on what reagents to order from NEB as time was rapidly
 
 <img src="/images/blog/2016-06-08-coverage1.png">
 
-Conditions
+## Experimental Conditions
 
-Name         Primers for cDNA         Primers for PCR
-NB05          Specific primers          0.05 uM each primer
-NB06          Specific primers          0.025 uM each primer
-NB07          Specific primers          0.0125 uM each primer
-NB08          Random hexamers     0.05 uM each primer
-NB09          Random hexamers     0.025 uM each primer
-NB10          Random hexamers     0.0125 uM each primer
+| Name      |  Primers for cDNA    |  Primers for PCR       |
+|-----------|----------------------|------------------------|
+| NB05      |  Specific primers    |  0.05 uM each primer   |
+| NB06      |  Specific primers    |  0.025 uM each primer  |
+| NB07      |  Specific primers    |  0.0125 uM each primer | 
+| NB08      |  Random hexamers     |  0.05 uM each primer   |
+| NB09      |  Random hexamers     |  0.025 uM each primer  |
+| NB10      |  Random hexamers     |  0.0125 uM each primer |
 
 It appeared that random priming during the reverse transcription step gave a more even representation of the five products in the second step. Region two for example is better represented at lower primer concentrations when using random primers for the first step, as is region two to a lesser extent. It is possible this is is caused by uneven cDNA synthesis due to interactions between the multiplex primers at 50°C, the optimum temperature for reverse transcriptase.
 

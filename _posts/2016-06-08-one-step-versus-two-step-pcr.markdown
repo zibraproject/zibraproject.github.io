@@ -11,7 +11,7 @@ In one-step RT-PCR the idea is to do an initial reverse transcription step off t
 
 We had to make a decision on what reagents to order from NEB as time was rapidly slipping by until the start of the trip. I decided to design a quick bake-off to determine which was better suited to multiplexing and ultimately our Zika protocol. Using two-step reagents (as you can’t really do it the other way round) this experiment would compare random hexamers with specific primers for reverse transcription with a toy multiplex PCR of five primer pairs at three concentrations for the second step giving a total of six conditions which I barcoded with the native barcoding kit and sequenced on the MinION. If specific primers outperformed random primers we would order one-step reagents and if random hexamers triumphed we would order two-step kits. It was a decision that could leave us with £12k of the wrong kits. A straw pole had Nick backing random hexamers and me specific primers. Nick was right.
 
-<img src="/images/2016-06-08-coverage1.png">
+<img src="/images/blog/2016-06-08-coverage1.png">
 
 Conditions
 
@@ -27,7 +27,7 @@ It appeared that random priming during the reverse transcription step gave a mor
 
 In a follow-up experiment I wanted to see if I could balance the representation by increasing the primer concentration for the weakest product (2) and reducing the concentration for the strongest (5). As you can see below that works quite nicely with all products present at fairly equal abundances. This would a useful technique for tuning the abundances in the final Zika scheme although that would be a late optimisation.
 
-<img src="/images/2016-06-08-coverage2.png">
+<img src="/images/blog/2016-06-08-coverage2.png">
 
 R9_ZKV      Random hexamers     0.05 uM regions 1+3+5, 0.1 uM region 2 and 0.025 uM region 4
 

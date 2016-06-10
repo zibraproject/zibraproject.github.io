@@ -5,9 +5,9 @@ categories: blog
 author: nick
 ---
 
-## Press release
+## University of Birmingham Press release
 
-http://www.birmingham.ac.uk/news/latest/2016/06/Mobile-laboratories-help-track-Zika-spread-across-Brazil.aspx
+<http://www.birmingham.ac.uk/news/latest/2016/06/Mobile-laboratories-help-track-Zika-spread-across-Brazil.aspx>
 
 ## Pre-coverage
 
@@ -26,4 +26,7 @@ Background to the project and nanopore sequencing by Ed Yong:
 
   - <a href="https://www.youtube.com/watch?v=9YXfXy9sh_I&app=desktop">Coverage on SBT</a>
 
+## International coverage
+
+  - <a href="http://www.voanews.com/content/brazil-zika-mobile-lab/3367760.html">Voice of America</a>
 

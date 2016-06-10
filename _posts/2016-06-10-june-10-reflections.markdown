@@ -12,8 +12,8 @@ I truly believe that pathogen genome analysis can contribute significantly to ep
 The trip was incredibly eye-opening for me in terms of the messy reality of viral surveillance and the even-more-messy details of Zika surveillance in Brazil. The basic pipeline for Zika surveillance in Brazil by the Ministry of Health is supposed to go something like:
 
 1. Patient presents at a clinic with symptoms consistent with infection (fever, rash, etc...).
-2. The clinician sends a blood sample to the regional diagnostic laboratory (these are referred to as [LACENs](URL)).
-3. The LACEN extracts viral RNA and runs [RT-PCR](URL) to confirm viral presence in the sample.
+2. The clinician sends a blood sample to the regional diagnostic laboratory (these are referred to as LACENs).
+3. The LACEN extracts viral RNA and runs [RT-PCR](https://en.wikipedia.org/wiki/Real-time_polymerase_chain_reaction) to confirm viral presence in the sample.
 4. RT-positives are reported up the chain so that the Ministry of Health can get a handle of country-wide prevalence patterns.
 
 However, the LACENs lack the necessary resources and expertise to make this pipeline work. We discovered 26 RT-positive samples out of 280 specimens tested at the Natal LACEN. Every one of these positive samples had been called negative by the LACEN. In fact, they had not confirmed a single case of Zika during 2016 in their catchment area of Rio Grande do Norte. This means that the regional authorities *have very little idea of Zika prevalence within the State*, especially as clinical symptoms are difficult to distinguish between Zika, dengue and Chikungunya. With the [road trip](/roadtrip/), we were able to bring in reagents and expertise lacked by the LACENs and confirm Zika diagnoses, in some cases, of pregnant women who presented the week before. RT-positive samples were then brought forward for [PCR amplification](/blog/multiplex-pcr-protocol/) and [MinION sequencing](/blog/protocol-low-input-native-barcoding-protocol/).

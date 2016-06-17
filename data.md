@@ -86,7 +86,7 @@ Location: Joao Pessoa
 Date: 7th June
 Location: Joao Pessoa
 
-| sample | reads | mapped | cov>=1 | cov>25 | link |
+| Barcode | 2D pass reads | Mapped reads | Covered bases (cov>=1) | Covered bases (cov>=20) | link |
 |--------|-------|--------|--------|--------|------|
 | NB01  |  293  |  56  |  3527  |  54  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB01.tar">FAST5 mapped</a> |
 | NB02  |  3592  |  329  |  4117  |  1477  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB02.tar">FAST5 mapped</a> |
@@ -106,7 +106,7 @@ Location: Joao Pessoa
 Date: 10th June
 Location: Recife
 
-| sample | reads | mapped | cov>=1 | cov>25 | link |
+| Barcode | 2D pass reads | Mapped reads | Covered bases (cov>=1) | Covered bases (cov>=20) | link |
 |--------|-------|--------|--------|--------|------|
 | NB01  |  2073  |  452  |  4236  |  1308  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB01.tar">FAST5 mapped</a> |
 | NB02  |  3152  |  612  |  2912  |  1862  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB02.tar">FAST5 mapped</a> |

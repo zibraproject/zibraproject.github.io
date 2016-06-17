@@ -25,7 +25,7 @@ Public Health England.
 Date: 4th June
 Location: Natal
 
-| Barcode | 2D pass reads | Mapped reads | Covered bases (cov>=1) | Covered bases (cov>=25) | link |
+| Barcode | 2D pass reads | Mapped reads | Covered bases (cov>=1) | Covered bases (cov>=20) | link |
 |--------|-------|--------|--------|--------|------|
 | NB01  |  5952  |  676  |  3719  |  2070  | <a href="http://s3.climb.ac.uk/nanopore/zika_flowcell1_12plex_NB01.tar">FAST5 mapped</a> |
 | NB02  |  2361  |  822  |  2859  |  708  | <a href="http://s3.climb.ac.uk/nanopore/zika_flowcell1_12plex_NB02.tar">FAST5 mapped</a> |
@@ -45,7 +45,7 @@ Location: Natal
 Date: 4th June
 Location: Natal
 
-| Barcode | 2D pass reads | Mapped reads | Covered bases (cov>=1) | Covered bases (cov>=25) | link |
+| Barcode | 2D pass reads | Mapped reads | Covered bases (cov>=1) | Covered bases (cov>=20) | link |
 |--------|-------|--------|--------|--------|------|
 | NB01  |  2496  |  433  |  4783  |  1704  | <a href="http://s3.climb.ac.uk/nanopore/zika_library2_12plex_NB01.tar">FAST5 mapped</a> |
 | NB02  |  1675  |  602  |  7347  |  1836  | <a href="http://s3.climb.ac.uk/nanopore/zika_library2_12plex_NB02.tar">FAST5 mapped</a> |
@@ -65,7 +65,7 @@ Location: Natal
 Date: 6th June 
 Location: Joao Pessoa
 
-| sample | reads | mapped | cov>=1 | cov>25 | link |
+| Barcode | 2D pass reads | Mapped reads | Covered bases (cov>=1) | Covered bases (cov>=20) | link |
 |--------|-------|--------|--------|--------|------|
 | NB01  |  3414  |  1717  |  8236  |  6254  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB01.tar">FAST5 mapped</a> |
 | NB02  |  3565  |  1421  |  7708  |  4251  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB02.tar">FAST5 mapped</a> |

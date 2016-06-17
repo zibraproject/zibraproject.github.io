@@ -20,6 +20,8 @@ Public Health England.
 
 ## Road trip data
 
+Below are links to MinION R9 reads basecalled with Metrichor that fall into the 'pass' folder, i.e. meet a quality threshold and are successfully demultiplexed. Only reads that map to the Zika genome are included. Not all runs have yet completed basecalling, so they may represent a subset of the total available reads. Each PCR run contains a negative water control which is sequenced (not necessarily on each flowcell).
+
 ### Flowcell 1
 
 Date: 4th June
@@ -78,6 +80,42 @@ Location: Joao Pessoa
 | NB09  |  288  |  121  |  7108  |  326  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB09.tar">FAST5 mapped</a> |
 | NB10  |  2277  |  293  |  6064  |  2108  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB10.tar">FAST5 mapped</a> |
 | NB11  |  56  |  13  |  3190  |  0  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB11.tar">FAST5 mapped</a> |
+
+### Flowcell 4
+
+Date: 7th June
+Location: Joao Pessoa
+
+| sample | reads | mapped | cov>=1 | cov>25 | link |
+|--------|-------|--------|--------|--------|------|
+| NB01  |  293  |  56  |  3527  |  54  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB01.tar">FAST5 mapped</a> |
+| NB02  |  3592  |  329  |  4117  |  1477  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB02.tar">FAST5 mapped</a> |
+| NB03  |  2617  |  108  |  3299  |  737  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB03.tar">FAST5 mapped</a> |
+| NB04  |  3670  |  991  |  8300  |  5379  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB04.tar">FAST5 mapped</a> |
+| NB05  |  14586  |  704  |  3281  |  746  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB05.tar">FAST5 mapped</a> |
+| NB06  |  4231  |  53  |  3742  |  224  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB06.tar">FAST5 mapped</a> |
+| NB07  |  6881  |  470  |  4390  |  1890  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB07.tar">FAST5 mapped</a> |
+| NB08  |  27  |  3  |  755  |  0  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB08.tar">FAST5 mapped</a> |
+| NB09  |  25  |  0  |  0  |  0  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB09.tar">FAST5 mapped</a> |
+| NB10  |  3527  |  703  |  7671  |  3354  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB10.tar">FAST5 mapped</a> |
+| NB11  |  2939  |  250  |  4741  |  1489  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB11.tar">FAST5 mapped</a> |
+| NB12  |  647  |  68  |  2469  |  318  | <a href="http://s3.climb.ac.uk/nanopore/zika_library_4_12plex_NB12.tar">FAST5 mapped</a> |
+
+### Flowcell 5
+
+Date: 10th June
+Location: Recife
+
+| sample | reads | mapped | cov>=1 | cov>25 | link |
+|--------|-------|--------|--------|--------|------|
+| NB01  |  2073  |  452  |  4236  |  1308  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB01.tar">FAST5 mapped</a> |
+| NB02  |  3152  |  612  |  2912  |  1862  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB02.tar">FAST5 mapped</a> |
+| NB03  |  2597  |  258  |  3384  |  351  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB03.tar">FAST5 mapped</a> |
+| NB04  |  2398  |  277  |  2069  |  628  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB04.tar">FAST5 mapped</a> |
+| NB05  |  2770  |  272  |  3522  |  669  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB05.tar">FAST5 mapped</a> |
+| NB06  |  2903  |  319  |  4187  |  1060  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB06.tar">FAST5 mapped</a> |
+| NB07  |  3112  |  132  |  3837  |  319  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB07.tar">FAST5 mapped</a> |
+| NB08  |  954  |  432  |  339  |  329  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB08.tar">FAST5 mapped</a> |
 
 ### References
 

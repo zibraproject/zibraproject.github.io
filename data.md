@@ -40,7 +40,7 @@ Location: Natal
 | NB11  |  7078  |  1602  |  6147  |  3837  | <a href="http://s3.climb.ac.uk/nanopore/zika_flowcell1_12plex_NB11.tar">FAST5 mapped</a> |
 | NB12  |  2231  |  860  |  5043  |  1182  | <a href="http://s3.climb.ac.uk/nanopore/zika_flowcell1_12plex_NB12.tar">FAST5 mapped</a> |
 
-## Flowcell 2
+### Flowcell 2
 
 Date: 4th June
 Location: Natal
@@ -60,6 +60,24 @@ Location: Natal
 | NB11  |  2442  |  122  |  7611  |  303  | <a href="http://s3.climb.ac.uk/nanopore/zika_library2_12plex_NB11.tar">FAST5 mapped</a> |
 | NB12  |  2015  |  364  |  8002  |  2746  | <a href="http://s3.climb.ac.uk/nanopore/zika_library2_12plex_NB12.tar">FAST5 mapped</a> |
 
+### Flowcell 3
+
+Date: 6th June 
+Location: Joao Pessoa
+
+| sample | reads | mapped | cov>=1 | cov>25 | link |
+|--------|-------|--------|--------|--------|------|
+| NB01  |  3414  |  1717  |  8236  |  6254  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB01.tar">FAST5 mapped</a> |
+| NB02  |  3565  |  1421  |  7708  |  4251  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB02.tar">FAST5 mapped</a> |
+| NB03  |  2606  |  1401  |  8653  |  4834  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB03.tar">FAST5 mapped</a> |
+| NB04  |  4609  |  1164  |  7892  |  5326  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB04.tar">FAST5 mapped</a> |
+| NB05  |  4001  |  2363  |  8359  |  6590  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB05.tar">FAST5 mapped</a> |
+| NB06  |  4683  |  1511  |  8566  |  5385  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB06.tar">FAST5 mapped</a> |
+| NB07  |  3160  |  361  |  6657  |  2377  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB07.tar">FAST5 mapped</a> |
+| NB08  |  3275  |  46  |  4337  |  0  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB08.tar">FAST5 mapped</a> |
+| NB09  |  288  |  121  |  7108  |  326  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB09.tar">FAST5 mapped</a> |
+| NB10  |  2277  |  293  |  6064  |  2108  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB10.tar">FAST5 mapped</a> |
+| NB11  |  56  |  13  |  3190  |  0  | <a href="http://s3.climb.ac.uk/nanopore/zika_library3_11plex_NB11.tar">FAST5 mapped</a> |
 
 ### References
 

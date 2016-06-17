@@ -45,7 +45,7 @@ Location: Natal
 Date: 4th June
 Location: Natal
 
-| sample | reads | mapped | cov>=1 | cov>25 | link |
+| Barcode | 2D pass reads | Mapped reads | Covered bases (cov>=1) | Covered bases (cov>=25) | link |
 |--------|-------|--------|--------|--------|------|
 | NB01  |  2496  |  433  |  4783  |  1704  | <a href="http://s3.climb.ac.uk/nanopore/zika_library2_12plex_NB01.tar">FAST5 mapped</a> |
 | NB02  |  1675  |  602  |  7347  |  1836  | <a href="http://s3.climb.ac.uk/nanopore/zika_library2_12plex_NB02.tar">FAST5 mapped</a> |

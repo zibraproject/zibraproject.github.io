@@ -42,5 +42,4 @@ Location: Natal
 
 ### References
 
-[1] HADDOW AJ, WILLIAMS MC, WOODALL JP, SIMPSON DI, GOMA LK. TWELVE ISOLATIONS OF ZIKA VIRUS FROM AEDES (STEGOMYIA) AFRICANUS (THEOBALD) TAKEN IN AND ABOVE A UGANDA FOREST. Bull World Health Organ. 1964;31:57–69. 
-
+[1] Haddow, A. J., Williams, M. C., Woodall, J. P., Simpson, D. I. H., & Goma, L. K. H. (1964). [Twelve isolations of Zika virus from Aedes (Stegomyia) africanus (Theobald) taken in and above a Uganda forest](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2555143/). Bulletin of the World Health Organization, 31(1), 57–69.

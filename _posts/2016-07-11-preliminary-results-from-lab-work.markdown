@@ -24,7 +24,7 @@ More generally, the MoH contributed significantly to our efforts and provided us
 
 <a href="/data/nuno-report1/Figure1.pdf"><img src="/data/nuno-report1/Figure1.png" /></a>
 
-[Figure 1] Number of PRC-confirmed cases of ZIKV in human samples collected by ZiBRA (white bars) and number of notified cases by the Ministry of Health (red line). 
+[Figure 1] Number of PCR-confirmed cases of ZIKV in human samples collected by ZiBRA (white bars) and number of notified cases by the Ministry of Health (red line). 
 
 Finally, the entomology team lead by Poliana Lemos, Bruna Nascimento and Hamilton Monteiro, and helped by volunteers from local Epidemiological Surveillance teams, captured a total of 838 mosquitoes in 19 collection points across 5 federal states. A total of 8 different species were identified. Aedes aegypti, Aedes albopictus and Culex quinquefasciatus were detected in all locations. Other mosquito species were also detected. For example, we detected the Haemagogus leucocelaenus in Natal, a vector typically involved in enzootic outbreaks of yellow fever, and also the less common Aedes fluviatis and taeriorhynchus. RNA extracted from these has now been pooled at the Technology Innovation Center, Instituto Evandro Chagas and virus detection and mosquito sequencing are currently being performed. 
 

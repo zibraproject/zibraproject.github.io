@@ -25,6 +25,7 @@ Background to the project and nanopore sequencing by Ed Yong:
   - <http://radioagencianacional.ebc.com.br/geral/audio/2016-06/laboratorio-movel-vai-mapear-comportamento-do-zika-no-nordeste>
   - <http://www.blog.saude.gov.br/combate-ao-aedes/51126-projeto-itinerante-realiza-mapeamento-genomico-do-zika.html>
   - <http://www.chicosabetudo.com.br/noticia/reportagens/2016/06/15/laboratorio-movel-mapeara-acao-do-zika-em-capitais-do-nordeste>
+  - <http://noticias.uol.com.br/saude/ultimas-noticias/redacao/2016/06/17/projeto-brasileiro-inicia-mapa-genetico-da-zika-e-ja-detecta-mutacoes.htm#fotoNav=1>
  
 ### TV coverage
 

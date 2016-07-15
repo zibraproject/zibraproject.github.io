@@ -10,6 +10,8 @@ as soon as we produce them.
 
 ### Validation data
 
+#### MP1751
+
 We have sequenced the MP1751 strain of Zika virus. This virus was
 originally described by Haddow [1] and has undergone several rounds
 of passage. This work was performed in collaboration with
@@ -17,6 +19,13 @@ Public Health England.
 
   - MP1751 (R9 pore) <a href="http://s3.climb.ac.uk/nanopore/Zika_MP1751_PHE_Long_R9_2D.tgz">47.9gb</a> (note this is a tar file, extract with ``tar -x``).
   - MP1751 (R9 pore) - multiplex test <a href="http://s3.climb.ac.uk/nanopore/R9_MinKNOW_0.51_PHE_amplicons_lambda_barcoded_demultiplexed_pass.tar">25gb</a>
+
+#### WHO reference strain
+
+We have sequenced the proposed WHO reference strain from French Polynesia (closely related to Brazilian strains) using the latest version of our multiplexed PCR protocol. The strain was kindly supplied by Sally Baylis from the Paul-Ehrlich-Instiut. The Illumina generated consensus sequence <a href="http://www.ncbi.nlm.nih.gov/nuccore/KX369547.1">is available in Genbank (accession KX369547.1)</a>.
+
+  - <a href="http://s3.climb.ac.uk/nanopore/primal_KX369547_R7.3.tgz">PF13/251013-18 (R7 pore, 50000 reads, 9.5Gb)</a>
+  - <a href="http://s3.climb.ac.uk/nanopore/primal_KX369547_R9.tgz">PF13/251013-18 (R9 pore, 50000 reads, 26.4Gb)</a>
 
 ## Road trip data
 

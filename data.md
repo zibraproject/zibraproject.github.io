@@ -24,8 +24,8 @@ Public Health England.
 
 We have sequenced the proposed WHO reference strain from French Polynesia (closely related to Brazilian strains) using the latest version of our multiplexed PCR protocol. The strain was kindly supplied by Sally Baylis from the Paul-Ehrlich-Instiut. The Illumina generated consensus sequence <a href="http://www.ncbi.nlm.nih.gov/nuccore/KX369547.1">is available in Genbank (accession KX369547.1)</a>.
 
-  - <a href="http://s3.climb.ac.uk/nanopore/primal_KX369547_R7.3.tgz">PF13/251013-18 (R7 pore, 50000 reads, 9.5Gb)</a>
-  - <a href="http://s3.climb.ac.uk/nanopore/primal_KX369547_R9.tgz">PF13/251013-18 (R9 pore, 50000 reads, 26.4Gb)</a>
+  - <a href="http://s3.climb.ac.uk/nanopore/primal_KX369547_R7.3.tgz">PF13/251013-18 (R7 pore, 50000 reads, 26.4Gb)</a>
+  - <a href="http://s3.climb.ac.uk/nanopore/primal_KX369547_R9.tgz">PF13/251013-18 (R9 pore, 50000 reads, 9.5Gb)</a>
 
 ## Road trip data
 

@@ -13,7 +13,7 @@ Our initial attempt used software called PriMux (<http://journals.plos.org/ploso
 
 We began to notice problems with the primers almost immediately. Despite running the software on a multiple alignment of South American and African isolates we realised many primers had mismatches with respect the the African genomes. This wasn’t a major problem as we were expecting to find only South American lineage isolates on the road trip in Brazil. The next more significant problem was a large difference in Tm’s found between the primers. Despite specifying a minimum of 63°C, I found primers in the scheme with Tm’s between 43°C and 73°C. One of the old PCR rules of thumb is that primer pairs should have annealing temperatures within 2°C of each other so it looked like many of the primers wouldn’t be useable at all. Upon arrival in Saõ Paulo the first time, we initially had good results with singleplex reactions from the 400 bp scheme generating 70% coverage of the Zika genome with 38 amplicons.
 
-Fig 1.
+Fig 1. Results of single-plex PCR scheme.
 
 <img src="/images/blog/2016-08-24-figure1.png" alt="Figure 1" />
 
@@ -21,7 +21,7 @@ However it was a multiplex scheme we wanted and when combining primer pairs, ini
 
 Fortunately for us and on the last possible attempt before the road trip we got our first decent genome from a sample known affectionately as sample 58, our low Ct test sample! With around 90% of the genome sequenced we were delighted to have sequenced our first Zika genome using a 4-plex PCR scheme. We designated this protocol version 1 and it was this that we used or minor variants of it for the whole ZiBRA road trip.
 
-Fig 2.
+Fig 2. Results of v1 multiplex protocol
 
 <img src="/images/blog/2016-08-24-figure2.png" alt="Figure 2" />
 
@@ -31,7 +31,7 @@ After returning from the trip I became convinced we needed to design a fresh sch
 
 First indications of our v2 primers and protocol are very promising (<a href="/data/amplicon_sequencing_protocol_v2.pdf">available here</a>), with complete genome coverage generated on our test material. Other groups using the protocol have reported success sequencing Zika from clinical samples up to Ct 36! We are currently in the process of rolling the new protocol out in Brazil and are doing our best to overcome the many logistical issues we have experienced. Watch this space!
 
-Fig 3.
+Fig 3. Results of v2 multiplex protocol, coverage is better and more even.
 
 <img src="/images/blog/2016-08-24-figure3.png" alt="Figure 3" />
 

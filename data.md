@@ -8,6 +8,10 @@ title: "Data"
 We have an open data release policy and links to datasets will be made available
 as soon as we produce them.
 
+### ZIKV genomes
+
+[Consensus genomes from initial 33 samples are available here.](https://github.com/zibraproject/zibraproject.github.io/tree/master/data/consensus)
+
 ### Validation data
 
 #### MP1751
@@ -70,7 +74,7 @@ Location: Natal
 
 ### Flowcell 3
 
-Date: 6th June 
+Date: 6th June
 Location: Joao Pessoa
 
 | Barcode | 2D pass reads | Mapped reads | Covered bases (cov>=1) | Covered bases (cov>=20) | link |
@@ -122,6 +126,10 @@ Location: Recife
 | NB06  |  2903  |  319  |  4187  |  1060  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB06.tar">FAST5 mapped</a> |
 | NB07  |  3112  |  132  |  3837  |  319  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB07.tar">FAST5 mapped</a> |
 | NB08  |  954  |  432  |  339  |  329  | <a href="http://s3.climb.ac.uk/nanopore/Zika_library_5_8plex_NB08.tar">FAST5 mapped</a> |
+
+### Disclaimer
+
+Please note that this data is still based on work in progress and should be considered preliminary. If you intend to include any of these data in publications, please let us know – otherwise please feel free to download and use without restrictions. We have shared this data with the hope that people will download and use it, as well as scrutinize it so we can improve our methods and analyses. Please contact us if you have any questions or comments. For ZiBRA sequence data email us at n.j.loman<span style="display:none">obfuscate</span>@bham.ac.uk.
 
 ### References
 

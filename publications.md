@@ -35,6 +35,12 @@ Quick J, and the ZiBRA Project Consortium.
 
 Genome sequencing has become a powerful tool for studying emerging infectious diseases; however, genome sequencing directly from clinical samples without isolation remains challenging for viruses such as Zika, where metagenomic sequencing methods may generate insufficient numbers of viral reads. Here we present a protocol for generating coding-sequence complete genomes comprising an online primer design tool, a novel multiplex PCR enrichment protocol, optimised library preparation methods for the portable MinION sequencer (Oxford Nanopore Technologies) and the Illumina range of instruments, and a bioinformatics pipeline for generating consensus sequences. The MinION protocol does not require an internet connection for analysis, making it suitable for field applications with limited connectivity. Our method relies on multiplex PCR for targeted enrichment of viral genomes from samples containing as few as 50 genome copies per reaction. Viral consensus sequences can be achieved starting with clinical samples in 1-2 days following a simple laboratory workflow. This method has been successfully used by several groups studying Zika virus evolution and is facilitating an understanding of the spread of the virus in the Americas.
 
+### <a href="https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-016-0356-2">Mobile real-time surveillance of Zika virus in Brazil</a>
+
+Nuno Rodrigues Faria, Ester C. Sabino, Marcio R. T. Nunes, Luiz Carlos Junior Alcantara, Nicholas J. LomanEmail author and Oliver G. Pybus
+
+The World Health Organization has declared Zika virus an international public health emergency. Knowledge of Zika virus genomic epidemiology is currently limited due to challenges in obtaining and processing samples for sequencing. The ZiBRA project is a United Kingdom–Brazil collaboration that aims to improve this situation using new sequencing technologies.
+
 ### <a href="http://biorxiv.org/content/early/2017/01/20/101972">Epidemiological and ecological determinants of Zika virus transmission in an urban setting.</a>
 
 Jose Lourenco, Maricela Maia de Lima, Nuno Rodrigues Faria, Andrew Walker, Mortiz UG Kraemer, Christian J Villabona-Arenas, Ben Lambert, Erenilde Marques de Cerqueira, Oliver G Pybus, Luiz CJ Alcantara, Mario Recker

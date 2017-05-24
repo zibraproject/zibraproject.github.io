@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Literature"
+title: "Publications"
 ---
 
 ## Manuscripts from members of the ZIBRA consortium

@@ -29,6 +29,10 @@ Zika virus (ZIKV) is causing an unprecedented epidemic linked to severe congenit
 
 Quick J, and the ZiBRA Project Consortium.
 
+  - <a href="https://github.com/zibraproject/zibraproject.github.io/blob/master/data/amplicon_sequencing_protocol_v2.pdf">1st protocol: July 15, 2016</a>
+  - <a href="https://github.com/zibraproject/zibraproject.github.io/blob/master/data/amplicon_sequencing_protocol_v3.pdf">2nd protocol: September 29, 2016</a>
+  - <a href="http://biorxiv.org/content/early/2017/01/09/098913">Preprint version: Jan 9, 2017</a>
+
 Genome sequencing has become a powerful tool for studying emerging infectious diseases; however, genome sequencing directly from clinical samples without isolation remains challenging for viruses such as Zika, where metagenomic sequencing methods may generate insufficient numbers of viral reads. Here we present a protocol for generating coding-sequence complete genomes comprising an online primer design tool, a novel multiplex PCR enrichment protocol, optimised library preparation methods for the portable MinION sequencer (Oxford Nanopore Technologies) and the Illumina range of instruments, and a bioinformatics pipeline for generating consensus sequences. The MinION protocol does not require an internet connection for analysis, making it suitable for field applications with limited connectivity. Our method relies on multiplex PCR for targeted enrichment of viral genomes from samples containing as few as 50 genome copies per reaction. Viral consensus sequences can be achieved starting with clinical samples in 1-2 days following a simple laboratory workflow. This method has been successfully used by several groups studying Zika virus evolution and is facilitating an understanding of the spread of the virus in the Americas.
 
 ### <a href="http://biorxiv.org/content/early/2017/01/20/101972">Epidemiological and ecological determinants of Zika virus transmission in an urban setting.</a>

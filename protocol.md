@@ -49,9 +49,9 @@ Currently we are recommending Oxford Nanopore’s Albacore for local base callin
 
 We also do not recommend using Albacore demultiplexing at present, as this is rather lenient as it requires only a single barcode copy.
 
-To basecall an R9.4 1D dataset on Windows with eight threads use:
+To basecall an R9.4 1D dataset on Windows with eight threads use, if the reads are stored in ``C:\data\reads\run`` and you want the basecals to save to ``C:\Users\nick\data\run`` then run::
 
-``read_fast5_basecaller.exe -c r94_linear.cfg -i C:\data\reads\run -s C:\Users\nick\data\run -t 8``
+``read_fast5_basecaller.py --input C:\data\reads\run --worker_threads 8 -c r94_450bps_linear.cfg -s C:\Users\nick\data\run -r -o fast5``
 
 ### Demultiplexing
 
